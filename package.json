@@ -25,7 +25,7 @@
   "workspaces": [
   "frontend",
   "server"
-]
+],
   "keywords": ["ai", "chat", "persona", "openai", "gemini"],
   "author": "Your Name",
   "license": "MIT"
