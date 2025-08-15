@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 // for vercel remove in local run 
-import app from '../server/index',
+// import app from '../server/index';
 import llmService from './llmservice.js';
 import personas from './personas.js';
 
