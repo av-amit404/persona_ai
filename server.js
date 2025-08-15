@@ -5,7 +5,7 @@ import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
-
+import app from '../server/index',
 import llmService from './llmservice.js';
 import personas from './personas.js';
 
@@ -274,3 +274,4 @@ server.listen(PORT, () => {
     console.error('❌ LLM connection test failed:', error);
   });
 });
+export default app
