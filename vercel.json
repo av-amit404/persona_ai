@@ -6,7 +6,5 @@
         "src": "./server.js",
         "use": "@vercel/node"
     }
-   ],
-
-   "REWRITES" :[{"SOURCE":"/(.*)","DESTINATION":"/"}]
+   ]
 }
