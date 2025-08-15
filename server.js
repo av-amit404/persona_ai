@@ -5,6 +5,7 @@ import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
+// for vercel remove in local run 
 import app from '../server/index',
 import llmService from './llmservice.js';
 import personas from './personas.js';
@@ -274,4 +275,5 @@ server.listen(PORT, () => {
     console.error('❌ LLM connection test failed:', error);
   });
 });
+// for vercel remove in local run
 export default app
